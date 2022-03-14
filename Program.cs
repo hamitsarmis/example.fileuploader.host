@@ -7,7 +7,7 @@ builder.Services.AddRazorPages();
 builder.Services.Configure<FormOptions>(options => 
 {
     options.ValueLengthLimit = int.MaxValue;
-    options.MultipartBodyLengthLimit = int.MaxValue;
+    options.MultipartBodyLengthLimit = long.MaxValue;
 });
 
 var app = builder.Build();
