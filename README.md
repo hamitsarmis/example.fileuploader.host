@@ -1,2 +1,2 @@
 # example.fileuploader.host
-multiple file uploader for a fast data transfer option in local network.
+multiple file uploader as a fast data transfer option in local network.
